@@ -1,0 +1,34 @@
+.navbar-container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-container a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-container .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar-container .nav-links ul {
+    display: flex; 
+}
+
+.navbar-container .nav-links ul li {
+    margin: 0 25px;
+    list-style-type: none;
+    font-weight: 600;
+    border-bottom: 3px transparent solid;
+    transition: .3s;
+}
+
+.navbar-container .nav-links ul li:hover{
+    border-bottom: 2px solid white;
+}

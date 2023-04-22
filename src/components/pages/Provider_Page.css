@@ -1,0 +1,85 @@
+.container { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.left-container .menu-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    font-size: 40px;
+    align-items: center;
+    background-color: var(--text-color);
+    width: 100px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.left-container .menu-container i{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    margin: auto;
+}
+
+.left-container .menu-container a{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+
+.left-container h1{
+    color: var(--text-color);
+    font-size: 60px;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-right: 3rem;
+    background-color: var(--text-color);
+    flex-direction: column;
+    border-radius: 50px;
+    height: 800px;
+}
+
+.right-container h2 {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-size: 35px;
+}
+
+.right-container select {
+    background-color: rgb(117, 171, 188);
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.right-container option {
+    background-color: rgb(117, 171, 188);
+}
+
+.right-container a{
+    background-color: var(--text-color);
+}
+
+.right-container a button{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    bottom: 120px;
+    right: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}

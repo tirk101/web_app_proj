@@ -1,0 +1,17 @@
+.tracking-list-container {
+    margin-top: 40px;
+    background-color: rgb(117, 171, 188);
+    height: 100px;
+    width: 1200px;
+    border-radius: 20px;
+}
+
+.tracking-list-container p {
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(117, 171, 188);
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+

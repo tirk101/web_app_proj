@@ -1,0 +1,33 @@
+.customer-list-container {
+    margin-top: 40px;
+    background-color: rgb(117, 171, 188);
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.customer-text-container {
+    background-color: rgb(117, 171, 188);
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.customer-list-container .customer-text-container p {
+    background-color: rgb(117, 171, 188);
+    color: var(--bg-color);
+    font-weight: bold;
+   
+}
+
+.customer-list-container button{
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: var(--text-color);
+}
+
+
