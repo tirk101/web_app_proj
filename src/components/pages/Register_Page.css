@@ -7,9 +7,9 @@
 
 .text-container {
     display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
     color: rgb(165, 215, 232);
-    margin: 30px 
+    margin: 1.515vw;
 }
 
 a {
@@ -25,9 +25,9 @@ a {
     display: flex;
     margin: auto;
     flex-direction: column;
-    width: 500px;
-    height: 600px;
-    border-radius: 50px 50px 50px 50px;
+    width: 25.25vw;
+    height: 33.33vw;
+    border-radius: 2.525vw 2.525vw 2.525vw 2.525vw;
 }
 
 .register-container h1 {
@@ -44,7 +44,7 @@ a {
     background-color: var(--text-color);
     color: var(--bg-color);
     font-weight:lighter;
-    margin-bottom: 70px;
+    margin-bottom: 3.333vw;
 }
 
 .register-container p a{
@@ -54,22 +54,21 @@ a {
 }
 
 input[type=text] { 
-    width: 380px;
-    height: 50px;
-    margin-bottom: 20px;
+    width: 19.192vw;
+    height: 4.167vw;
+    margin-bottom: 1.01vw;
     background-color: rgb(117, 171, 188);
-    border-radius: 7px;
-    border: solid transparent
+    border-radius: 0.707vw;
+    border: solid transparent;
 }
 
 button { 
-    width: 390px;
-    height: 50px;
+    width: 19.697vw;
+    height: 3.157vw;
     background-color: var(--sub-color);
-    border-radius: 7px;
+    border-radius: 0.707vw;
     border: solid transparent;
-    font-size: 20px;
+    font-size: 1.01vw;
     font-weight: bold;
     text-decoration: var(--bg-color);
 }
-
