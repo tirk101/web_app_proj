@@ -6,19 +6,19 @@
 .left-container{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 5.21vw;
 }
 
 .left-container .menu-container{
     display: flex;
     flex-direction: column;
     margin-right: auto;
-    font-size: 40px;
+    font-size: 2.08vw;
     align-items: center;
     background-color: var(--text-color);
-    width: 100px;
-    height: 500px;
-    border-radius: 20px;
+    width: 5.21vw;
+    height: 46.29vh;
+    border-radius: 1.04vw;
 }
 
 .left-container .menu-container i{
@@ -30,40 +30,40 @@
 .left-container .menu-container a{
     background-color: var(--text-color);
     color: var(--bg-color);
-    margin-bottom: 30px;
+    margin-bottom: 1.56vh;
     margin-top: auto;
 }
 
 .left-container h1{
     color: var(--text-color);
-    font-size: 60px;
+    font-size: 3.13vw;
 }
 
 .right-container {
     display: flex;
     align-items: center;
     width: 75%;
-    margin-right: 3rem;
+    margin-right: 1.56vw;
     background-color: var(--text-color);
     flex-direction: column;
-    border-radius: 50px;
-    height: 800px;
+    border-radius: 2.6vw;
+    height: 74.07vh;
 }
 
 .right-container h2 {
     background-color: var(--text-color);
     color: var(--bg-color);
-    font-size: 35px;
+    font-size: 1.82vw;
 }
 
 .right-container select {
     background-color: rgb(117, 171, 188);
-    width: 600px;
-    height: 50px;
+    width: 31.25vw;
+    height: 4.63vh;
     text-align: center;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    font-size: 16px;
+    border-radius: 1.04vw;
+    margin-bottom: 4.63vh;
+    font-size: 0.83vw;
 }
 
 .right-container option {
@@ -76,10 +76,10 @@
 
 .right-container a button{
     position: absolute;
-    width: 400px;
-    height: 40px;
-    bottom: 120px;
-    right: 120px;
-    font-size: 18px;
+    width: 20.83vw;
+    height: 4.22vh;
+    bottom: 14.11vh;
+    right: 6.25vw;
+    font-size: 0.93vw;
     font-weight: bold;
 }
